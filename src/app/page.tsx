@@ -1,103 +1,25 @@
+import { FaFacebook, FaLinkedin, FaDownload, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-112px)] w-full max-w-screen-xl mx-auto px-4 md:px-12 py-10 gap-12 md:gap-32">
+      <div className="flex justify-center md:justify-end items-center h-full">
+        <Image src="/profile.webp" alt="Profile" width={448} height={448} className="w-64 aspect-square md:w-[28rem] md:aspect-square rounded-full object-cover shadow-xl" />
+      </div>
+      <div className="flex flex-col items-center md:items-start gap-8">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-center md:text-left">Thi Hong Loan, Dang</h1>
+        <p className="text-lg md:text-xl text-gray-600 text-center md:text-left max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, euismod euismod nisi nisi euismod.</p>
+        <p className="text-lg md:text-xl text-gray-600 text-center md:text-left max-w-2xl">Contact me via email: .</p>
+        <div className="flex flex-wrap gap-4 md:gap-6 mt-4 justify-center md:justify-start w-full max-w-xl">
+          <a href="#" className="rounded-full bg-blue-600 text-white p-4 hover:bg-blue-700 transition text-2xl flex items-center justify-center" aria-label="Facebook"><FaFacebook size={28} /></a>
+          <a href="#" className="rounded-full bg-blue-700 text-white p-4 hover:bg-blue-800 transition text-2xl flex items-center justify-center" aria-label="LinkedIn"><FaLinkedin size={28} /></a>
+          <a href="#" className="rounded-full bg-gray-800 text-white p-4 hover:bg-gray-900 transition text-2xl flex items-center justify-center" aria-label="GitHub"><FaGithub size={28} /></a>
+          <a href="#" className="rounded-full bg-blue-400 text-white p-4 hover:bg-blue-500 transition text-2xl flex items-center justify-center" aria-label="Twitter"><FaTwitter size={28} /></a>
+          <a href="#" className="rounded-full bg-pink-500 text-white p-4 hover:bg-pink-600 transition text-2xl flex items-center justify-center" aria-label="Instagram"><FaInstagram size={28} /></a>
+          <a href="#" className="rounded-full bg-gray-200 text-gray-700 p-4 hover:bg-gray-300 transition flex items-center gap-3 text-lg font-semibold w-full md:w-auto justify-center mt-2 md:mt-0" download><FaDownload size={24} />Download my resume</a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+    </section>
   );
 }
