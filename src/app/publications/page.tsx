@@ -11,7 +11,7 @@ export default function PublicationsPage() {
         </div>
         <div className="flex-1 text-gray-700 text-lg md:text-xl">
           <p className="mb-4">Welcome to my publications! Here you can find my scientific articles, conference papers, and research contributions in the field of Chemistry.</p>
-          <p className="mb-4">I have published in various international journals and conferences, collaborating with researchers from <a href="https://www.hcmus.edu.vn/" className="underline">University of Science</a></p>
+          <p className="mb-4">I have published in various international journals and conferences, collaborating with researchers from <a href="https://www.hcmus.edu.vn/" target="_blank" rel="noopener noreferrer" className="underline">University of Science - VNUHCM</a>.</p>
           <p>Scroll down to see the full list of my publications and research works.</p>
         </div>
       </SectionBanner>

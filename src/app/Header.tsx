@@ -8,7 +8,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="w-full flex items-center justify-between px-4 md:px-12 py-4 border-b border-gray-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
-      <div className="font-bold text-xl tracking-tight">Loan Dang</div>
+      <Link href="/" className="font-bold text-xl tracking-tight hover:underline cursor-pointer transition">Loan Dang</Link>
       {/* Desktop nav */}
       <nav className="hidden sm:flex gap-4">
         <Link href="/" className={`px-3 py-1 rounded hover:bg-gray-100 transition ${pathname === "/" ? "font-bold underline underline-offset-4" : ""}`}>Home</Link>

@@ -11,7 +11,7 @@ export default function ProfilePage() {
         </div>
         <div className="flex-1 text-gray-700 text-lg md:text-xl">
           <p className="mb-4">Welcome to my profile! I am a sales engineer at Sou Viet Company Limited.</p>
-          <p className="mb-4">I received my B.Sc in Chemistry at <a href="https://www.hcmus.edu.vn/" className="underline">University of Science</a> in 2024.</p>
+          <p className="mb-4">I received my B.Sc in Chemistry at <a href="https://www.hcmus.edu.vn/" target="_blank" rel="noopener noreferrer" className="underline">University of Science - VNUHCM</a> in 2024.</p>
           <p>I am interested in...</p>
         </div>
       </SectionBanner>
