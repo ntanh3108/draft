@@ -27,7 +27,7 @@ export default function ProfilePage() {
                 <span className="text-lg md:text-xl font-semibold text-gray-900"> HCMC, Vietnam</span>
                 <div className="text-gray-700 mt-1">Supervisor: Assoc. Prof. Le Thanh Nguyen, Huynh.</div>
                 <div className="text-gray-700">Classification: <span className="font-medium">Very Good</span></div>
-                <div className="text-gray-700">GPA: <span className="font-medium">3.4/4 (8.0/10)</span></div>
+                <div className="text-gray-700">GPA: <span className="font-medium">3.4/4</span></div>
               </div>
               <div className="text-gray-500 text-sm md:text-base mb-2 md:mb-0 md:text-right min-w-[180px]">09/2020 - 09/2024</div>
             </div>
