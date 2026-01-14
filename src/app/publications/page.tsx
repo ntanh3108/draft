@@ -27,7 +27,7 @@ export default function PublicationsPage() {
               <div className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
                 1. Ammonium vanadium bronze (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub>: a novel cathode material for potassium-ion batteries
               </div>
-              <div className="text-gray-700 mb-1">Journal of Power Sources, Volume 666, 239214 (Q1, IF: 9.1)</div>
+              <div className="text-gray-700 mb-1">Journal of Power Sources, Volume 666, 239214 <span className="font-semibold">(Q1, IF: 9.1)</span></div>
               <div className="text-gray-700 mb-1">
                 <span className="font-bold">Authors:</span> Hai Nam Pham <sup>#</sup>, <span className="font-bold underline">Thi Hong Loan Dang</span> <sup>#</sup>, Thi Kieu Anh Vo, Thu Thao Nguyen, Xuan Tai Pham, Thi Thu Trang Nguyen, Wen Jen Lee, Minh-Thuan Pham <sup>#</sup>, Guo-Ping Chang-Chien, Thi Nam Pham, Quang Vinh Lam, Dai Lam Tran, Thai Hoang Nguyen, Viet Hai Le, Le Thanh Nguyen Huynh.
               </div>
@@ -56,9 +56,9 @@ export default function PublicationsPage() {
           <div className="bg-white rounded-lg shadow p-6 mb-8 flex flex-col-reverse md:flex-row md:items-start md:justify-between">
             <div className="flex-1">
               <div className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
-                2. High-Performance Sodium Storage Enabled by Structural Optimization of Oxidized (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub>
+                1. High-Performance Sodium Storage Enabled by Structural Optimization of Oxidized (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub>
               </div>
-              <div className="text-gray-700 mb-1">Journal of The Electrochemical Society, Volume 172, Number 9 (Q1, IF: 4.3)</div>
+              <div className="text-gray-700 mb-1">Journal of The Electrochemical Society, Volume 172, Number 9 <span className="font-semibold">(Q1, IF: 4.3)</span></div>
               <div className="text-gray-700 mb-1">
                 <span className="font-bold">Authors:</span> Hai Nam Pham <sup>#</sup>, <span className="font-bold underline">Thi Hong Loan Dang</span> <sup>#</sup>, Thi Thu Trang Nguyen, Thu Thao Nguyen, Thi Nam Pham, Tuan Anh Nguyen, Thi Kieu Anh Vo, Wen Jen Lee, Minh-Thuan Pham, Guo-Ping Chang-Chien, Quang Vinh Lam, Thai Hoang Nguyen, Viet Hai Le, Le Thanh Nguyen Huynh.
               </div>
@@ -82,7 +82,7 @@ export default function PublicationsPage() {
           <div className="bg-white rounded-lg shadow p-6 mb-8 flex flex-col-reverse md:flex-row md:items-start md:justify-between">
             <div className="flex-1">
               <div className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
-                3. Layered (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub> as a High-Performance Cathode for Zinc-Ion Batteries: Structural, Electrochemical, and Intercalation Mechanism Insights
+                2. Layered (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub> as a High-Performance Cathode for Zinc-Ion Batteries: Structural, Electrochemical, and Intercalation Mechanism Insights
               </div>
               <div className="text-gray-700 mb-1">Ceramics International <span className="font-semibold">(Q1, IF: 5.6)</span></div>
               <div className="text-gray-700 mb-1">
@@ -108,7 +108,7 @@ export default function PublicationsPage() {
           <div className="bg-white rounded-lg shadow p-6 mb-8 flex flex-col-reverse md:flex-row md:items-start md:justify-between">
             <div className="flex-1">
               <div className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
-                4. A high-capacity double-layered (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub> in micro-rods structure for sodium storage
+                3. A high-capacity double-layered (NH<sub>4</sub>)<sub>0.5</sub>V<sub>2</sub>O<sub>5</sub> in micro-rods structure for sodium storage
               </div>
               <div className="text-gray-700 mb-1">Materials Science and Engineering: B <span className="font-semibold">(Q1, IF: 4.6)</span></div>
               <div className="text-gray-700 mb-1">
