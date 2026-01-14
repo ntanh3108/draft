@@ -112,10 +112,10 @@ export default function ProfilePage() {
           <div className="flex flex-col gap-8">
             <div className="flex flex-col-reverse md:flex-row md:items-start md:justify-between bg-white rounded-lg shadow p-6">
               <div>
-                <span className="text-lg md:text-xl font-semibold text-gray-900">IELTS 6.0 (Issued by IDP Education)</span>
-                <div className="text-gray-700 mt-1">Speaking 5.5; Listening 5.5; Reading 6.0; Writing 6.0</div>
+                <span className="text-lg md:text-xl font-semibold text-gray-900">IELTS 6.5 (Issued by IDP Education)</span>
+                <div className="text-gray-700 mt-1">Speaking 5.0; Listening 7.0; Reading 6.5; Writing 7.0</div>
               </div>
-              <div className="text-gray-500 text-sm md:text-base mb-2 md:mb-0 md:text-right min-w-[100px]">04/2025</div>
+              <div className="text-gray-500 text-sm md:text-base mb-2 md:mb-0 md:text-right min-w-[100px]">08/11/2025</div>
             </div>
           </div>
         </section>
